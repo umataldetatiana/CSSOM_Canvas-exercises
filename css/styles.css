@@ -1,0 +1,18 @@
+/* The following CSS rules apply to the body and html elements */
+
+body, html {
+    margin: 0; /* Removes the default margin */
+    padding: 0; /* Removes the default padding */
+    height: 100%; /* Sets the height to 100% of the viewport height */
+    overflow: hidden; /* Prevents content from spilling over the edges */
+    display: flex; /* Makes these elements flexible containers */
+    justify-content: center; /* Centers the child elements horizontally */
+    align-items: center; /* Centers the child elements vertically */
+    background-color: #f0f0f0; /* Sets the background color to light gray */
+}
+
+/* The following CSS rule applies to the canvas element */
+
+canvas {
+    border: 1px solid black; /* Adds a 1 pixel wide, solid black border */
+}
